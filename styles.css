@@ -285,3 +285,5 @@ ul, ol { margin: 0; padding: 0; }
 .lede { margin-inline: auto; text-wrap: pretty; }
 .cta { justify-content: center; }
 .stats { text-align: center; }
+.list-cards a.school { font-weight: 400; color: var(--muted); }
+.list-cards a.school:hover { color: var(--accent); }
