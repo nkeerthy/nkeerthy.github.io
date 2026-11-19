@@ -287,3 +287,6 @@ ul, ol { margin: 0; padding: 0; }
 .stats { text-align: center; }
 .list-cards a.school { font-weight: 400; color: var(--muted); }
 .list-cards a.school:hover { color: var(--accent); }
+.job .at a { text-decoration: underline; text-decoration-color: transparent; text-underline-offset: 3px; transition: text-decoration-color .15s; }
+.job .at a:hover { text-decoration-color: currentColor; }
+.job .at .now { color: var(--faint); font-weight: 500; font-size: .85em; }
