@@ -290,3 +290,4 @@ ul, ol { margin: 0; padding: 0; }
 .job .at a { text-decoration: underline; text-decoration-color: transparent; text-underline-offset: 3px; transition: text-decoration-color .15s; }
 .job .at a:hover { text-decoration-color: currentColor; }
 .job .at .now { color: var(--faint); font-weight: 500; font-size: .85em; }
+.app .chips { margin-top: 0; padding-top: 0; }
