@@ -278,3 +278,10 @@ ul, ol { margin: 0; padding: 0; }
 .reveal { opacity: 0; transform: translateY(12px); transition: opacity .5s ease, transform .5s ease; }
 .reveal.in { opacity: 1; transform: none; }
 @media (prefers-reduced-motion: reduce) { .reveal { opacity: 1; transform: none; } }
+
+/* Centered hero */
+.hero { text-align: center; }
+.hero h1 { margin-inline: auto; text-wrap: balance; }
+.lede { margin-inline: auto; text-wrap: pretty; }
+.cta { justify-content: center; }
+.stats { text-align: center; }
